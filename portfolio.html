@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./modern.normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="js-menu-container">
+      <button class="menu-toggle js-close-menu">
+        <svg>
+          <use href="./icons/icons.svg#icon-close-menu"></use>
+        </svg>
+      </button>
+      <nav class="drawer-main-navigation">
+        <ul class="drawer-nav-links">
+          <li>
+            <a href="index.html" class="active studio-current drawer-link"
+              >Studio</a
+            >
+          </li>
+          <li>
+            <a href="portfolio.html" class="active drawer-link">Portfolio</a>
+          </li>
+          <li><a href="" class="not-active drawer-link">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="drawer-contacts">
+        <a href="tel:+1 212-772-4150" class="phone-number hover-icon-2"
+          >+1 212-772-4150</a
+        >
+        <a href="mailto:info@devstudio.com" class="email hover-icon">
+          info@devstudio.com</a
+        >
+      </div>
+      <div class="drawer-social-links">
+        <a href="https://instagram.com" aria-label="Instagram">Instagram</a>
+        <svg>
+          <use href="./icons/icons.svg#icon-line-1"></use>
+        </svg>
+        <a href="https://twitter.com" aria-label="Twitter">Twitter</a>
+        <svg>
+          <use href="./icons/icons.svg#icon-line-1"></use>
+        </svg>
+        <a href="https://facebook.com" aria-label="Facebook">Facebook</a>
+        <svg>
+          <use href="./icons/icons.svg#icon-line-1"></use>
+        </svg>
+        <a href="https://linkedin.com" aria-label="Linkedin">Linkedin</a>
+      </div>
+    </div>
+    <header class="global-header">
+      <div class="logo-header">
+        <a href="index.html" class="logo"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span></a
+        >
+      </div>
+      <a href="index.html"> </a>
+      <nav class="main-navigation">
+        <ul class="nav-links">
+          <li class="link-one">
+            <a href="index.html" class="active">Studio</a>
+          </li>
+          <li class="link-two">
+            <a href="portfolio.html" class="active portofolio-current"
+              >Portfolio</a
+            >
+          </li>
+          <li class="link-three"><a href="" class="not-active">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="navigation-contacts">
+        <svg class="navigation-contacts-icon">
+          <use href="./icons/icons.svg#icon-envelope"></use>
+        </svg>
+        <a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a>
+        <svg>
+          <use href="./icons/icons.svg#icon-smartphone"></use>
+        </svg>
+        <a href="tel:+1 212-772-4150" class="phone-number">+1 212-772-4150</a>
+      </div>
+      <div>
+        <button
+          class="menu-button js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-icon">
+            <use href="./icons/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main class="main-container">
+      <section class="full-container">
+        <ul class="button-container">
+          <li>
+            <button type="button" class="button button-one">All</button>
+          </li>
+          <li>
+            <button type="button" class="button button-two">Web-sites</button>
+          </li>
+          <li>
+            <button type="button" class="button button-three">Apps</button>
+          </li>
+          <li>
+            <button type="button" class="button button-four">Design</button>
+          </li>
+          <li>
+            <button type="button" class="button button-five">Marketing</button>
+          </li>
+        </ul>
+
+        <ul class="content-container">
+          <li class="hover-image-card">
+            <div class="image-card">
+              <img
+                src="./images/technoduck.png"
+                alt="Technoduck"
+                width="370px"
+                height="294px"
+                class="card-one"
+              />
+              <div class="overlay">
+                <p></p>
+              </div>
+            </div>
+            <div class="image-job-title">
+              <span class="image-title"><b>Technoduck</b></span>
+              <span class="job-title">Web-site</span>
+            </div>
+          </li>
+          <li class="hover-image-card">
+            <div class="image-card">
+              <img
+                src="./images/poster-new-orlean.png"
+                alt="Poster New Orlean"
+                width="370px"
+                height="294px"
+                class="card-two"
+              />
+              <div class="overlay">
+                <p></p>
+              </div>
+            </div>
+            <div class="image-job-title">
+              <span class="image-title"
+                ><b>Poster New Orlean vs Golden Star</b></span
+              >
+              <span class="job-title">Design</span>
+            </div>
+          </li>
+          <li class="hover-image-card">
+            <div class="image-card">
+              <img
+                src="./images/seafood-restaurant.png"
+                alt="Seafood Restaurant"
+                width="370px"
+                height="294px"
+                class="card-three"
+              />
+              <div class="overlay">
+                <p></p>
+              </div>
+            </div>
+            <div class="image-job-title">
+              <span class="image-title"><b>Seafood Restaurant </b></span>
+              <span class="job-title">Apps</span>
+            </div>
+          </li>
+          <li class="hover-image-card">
+            <div class="image-card">
+              <img
+                src="./images/project-prime.png"
+                alt="Project Prime"
+                width="370px"
+                height="294px"
+                class="card-four"
+              />
+              <div class="overlay">
+                <p></p>
+              </div>
+            </div>
+            <div class="image-job-title">
+              <span class="image-title"><b>Project Prime</b></span>
+              <span class="job-title">Marketing</span>
+            </div>
+          </li>
+          <li class="hover-image-card">
+            <div class="image-card">
+              <img
+                src="./images/project-boxes.png"
+                alt="Project Boxes"
+                width="370px"
+                height="294px"
+                class="card-one"
+              />
+              <div class="overlay">
+                <p></p>
+              </div>
+            </div>
+            <div class="image-job-title">
+              <span class="image-title"><b>Project Boxes</b></span>
+              <span class="job-title">Apps</span>
+            </div>
+          </li>
+          <li class="hover-image-card">
+            <div class="image-card">
+              <img
+                src="./images/inspiration-has-no-borders.png"
+                alt=" Inspiration has no border"
+                width="370px"
+                height="294px"
+                class="card-two"
+              />
+              <div class="overlay">
+                <p></p>
+              </div>
+            </div>
+            <div class="image-job-title">
+              <span class="image-title"><b>Inspiration has no Borders</b></span>
+              <span class="job-title">Web-site</span>
+            </div>
+          </li>
+          <li class="hover-image-card">
+            <div class="image-card">
+              <img
+                src="./images/limited-edition.png"
+                alt="Limited Edition"
+                width="370px"
+                height="294px"
+                class="card-three"
+              />
+              <div class="overlay">
+                <p></p>
+              </div>
+            </div>
+            <div class="image-job-title">
+              <span class="image-title"><b>Limited Edition</b></span>
+              <span class="job-title">Design</span>
+            </div>
+          </li>
+          <li class="hover-image-card">
+            <div class="image-card">
+              <img
+                src="./images/project-lab.png"
+                alt="Project Lab"
+                width="370px"
+                height="294px"
+                class="card-four"
+              />
+              <div class="overlay">
+                <p></p>
+              </div>
+            </div>
+            <div class="image-job-title">
+              <span class="image-title"><b>Project LAB</b></span>
+              <span class="job-title">Marketing</span>
+            </div>
+          </li>
+          <li class="hover-image-card">
+            <div class="image-card">
+              <img
+                src="./images/growing-business.png"
+                alt="Growing Business"
+                width="370px"
+                height="294px"
+                class="card-one"
+              />
+              <div class="overlay">
+                <p></p>
+              </div>
+            </div>
+            <div class="image-job-title">
+              <span class="image-title"><b>Growing Business</b></span>
+              <span class="job-title">Apps</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="info-footer">
+      <div>
+        <a href="index.html" class="logo logo-footer"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span></a
+        >
+        <address class="contact-details">
+          <span>695 Park Ave, NY 10065, USA</span>
+
+          <span class="email-adress">info@devstudio.com</span>
+
+          <span class="phone-adress">+1 212-772-4150</span>
+        </address>
+      </div>
+      <div class="social-links-icon">
+        <span class="find-us">Find us on </span>
+        <div class="find-us-links">
+          <a href="https://instagram.com" class="icon" aria-label="Instagram">
+            <svg>
+              <use href="./icons/icons.svg#icon-instagram-footer"></use>
+            </svg>
+          </a>
+          <a href="https://twitter.com" class="icon" aria-label="Twitter">
+            <svg>
+              <use href="./icons/icons.svg#icon-twitter-footer"></use>
+            </svg>
+          </a>
+          <a href="https://facebook.com" class="icon" aria-label="Facebook">
+            <svg>
+              <use href="./icons/icons.svg#icon-facebook-footer"></use>
+            </svg>
+          </a>
+          <a href="https://linkedin.com" class="icon" aria-label="Linkedin">
+            <svg>
+              <use href="./icons/icons.svg#icon-linkedin-footer"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="subscribe-form">
+        <form action="/procesare_formular" method="POST">
+          <label for="email">Subscribe to the newsletter</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            class="email-input"
+            required
+          />
+          <button type="submit">
+            <span>Subscribe</span
+            ><svg class="btn-subscribe-icon">
+              <use href="./icons/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </footer>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
